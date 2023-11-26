@@ -191,11 +191,6 @@
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
   
   [class*='col-'] {
   
