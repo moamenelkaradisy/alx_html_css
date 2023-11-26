@@ -191,11 +191,6 @@
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
   
   [class*='col-'] {
   
@@ -380,13 +375,11 @@
   }
    /* Section Latest news 
    ============================= */
-.section-latest-news {
+.row {
 
   flex-direction: row-reverse;
 }
    
-
-
   /*** 4. CARD ***/
   
   /* Card (all styles)
