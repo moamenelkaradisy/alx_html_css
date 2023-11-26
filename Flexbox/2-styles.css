@@ -380,7 +380,10 @@
   }
    /* Section Latest news 
    ============================= */
+.section-latest-news {
 
+  flex-direction: row-reverse;
+}
    
 
 
